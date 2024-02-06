@@ -1,0 +1,69 @@
+Git command 
+1. Clone & status
+Clone Cloning a repository on our local machine
+	Git clone < some link (Project link)>
+	cd – change directory, 
+	cd.. to exit directory 
+	clear – clear terminal 
+	ls – open all folder
+	ls -a – hidden file 
+2. status  Display the state of the code
+git status – New update
+3. Add & commit 
+	git add – fit “file name”
+adds new or changed title in your working 
+	git commit  It’s the record of change 
+	git commit -m “some messages”
+4. Push command 
+push  upload local repo content to remote repo
+git push origin main
+
+5. Command 
+mkdir ‘File Name’  New directory folder
+cd to Enter a directory
+cd File Name
+git init – command to git folder
+6. Init command 
+init – used to create a new git repo
+git init
+git remote add origin <-link-> (to add new remote/repo)
+git remote -v (to verify remote)
+git branch (to check branch)
+git branch -m main (to rename branch)
+git push -u origin main (it’s used when all the file are committed in same branch)
+
+6. Branch Command
+git branch (to check branch)
+git branch -m main (to rename branch)
+git checkout -b <-branch name-> (to create new branch)
+git branch -d <-branch name-> (to delete branch)
+
+7. Merging Code
+Way 1: git diff <-branch-> (to merge 2 branches)
+Way 2: create a PR (Pull Request)
+It lets you tell others about changes you’ve pushed to a branch in a repository on GitHub.
+
+8.Pull Command
+git pull origin main
+used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+9.Resolving Merge Conflicts
+An event that takes place when Git is unable to automatically resolve difference as in code between two commits.
+10. Undoing Changes 
+Case 1: stages changes (add but not commit)
+git reset <-file name->
+git reset
+Case 2: Committed changes (for one commit)
+	git reset HEAD~1
+Case 3: Committed changes (for many commits)
+git reset <-commit hash->
+git reset –hard <-commit hash->
+[git log  to see all commit(old)]
+11. Fork
+A fork is a new repo that shares code and visibility setting with the original “upstream” repo.
+Fork is a rough copy.
+12.Git Bash
+			Step—1 
+Configuration Git 
+git config  - -global user.name “ “
+git config  - -global user.email “ “
+git config  - - list
