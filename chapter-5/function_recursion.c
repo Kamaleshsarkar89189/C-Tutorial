@@ -71,8 +71,8 @@ Function:
             Why use function?
 
                 1. To avoid rewriting the same logic agian and again.
-                2. To keep track of what we are doin in a program.
-                3. To test and check logiv independently.
+                2. To keep track of what we are doing in a program.
+                3. To test and check logic independently.
     */
 
     /*
