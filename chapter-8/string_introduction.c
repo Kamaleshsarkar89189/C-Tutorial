@@ -1,6 +1,6 @@
 /*
 Strings
-    Strin is a 1-D chracter array terminated by a null ('\0') --> this is null character
+    String is a 1-D chracter array terminated by a null ('\0') --> this is null character
         null character denotes string termination character are stored in contiuous memory locations
 
 Initialization Strings
