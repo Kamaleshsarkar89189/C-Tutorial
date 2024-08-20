@@ -2,7 +2,7 @@
 /*
 Pointers
 
-    A pointer is a variable that stores the memory address of another variable 
+    A pointer is a variable that stores the memory address of same data type of an another variable 
 
     Syntax
 
